@@ -1,7 +1,7 @@
-Monkey
-Score
-Apples and pears
-Dog and bone
+monkey
+score
+mpples and pears
+dog and bone
 adam and eve
 alan whickers
 ascot races
