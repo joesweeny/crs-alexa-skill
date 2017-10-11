@@ -33,7 +33,7 @@ var handlers = {
         if (translation) {
             this.attributes['speechOutput'] = translation;
             this.attributes['repromtSpeech'] = this.t("SLANG_REPEAT_MESSAGE");
-            this.emit(':tellWithCard', translation, this.attributes['repromptSpeech'], cardTitle, translation);
+            this.emit(':tellWithCard', translation, cardTitle, translation);
         } else {
             var speechOutput = this.t("SLANG_NOT_FOUND_MESSAGE");
             var repromptSpeech = this.t("SLANG_NOT_FOUND_REPROMPT");
